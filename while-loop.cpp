@@ -8,7 +8,6 @@ int main()
     cin >> enteredpassword;
     while (enteredpassword != correctpassword)
     { // we use while loop when the number of repeatation is unknown
-
         cout << "incorrect password, try again:";
         cin >> enteredpassword; // this value will print until the user enetered correct password
     }
